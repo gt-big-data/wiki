@@ -15,11 +15,11 @@ Menu:
 * **[Datasets](datasets)**
 
 * **[Projects](projects)**
-* [Current Events: Twitter](Current-Events:-Twitter)
+* [Current Events: Twitter](Current-Events-Twitter)
 * [GT Bus Schedule](GT-Bus-Schedule)
 * [Movie Lens Recommendation System](Movie-Lens-Recommendation-System)
-* [Sports Analysis Engine](https://github.com/gt-big-data/wiki/wiki/Sports-Analysis-Engine-(jogaBonitoDB))
-* [Troll bot and Google NGrams](Troll-bot-and-Google-NGrams)
+* [Sports Analysis Engine](Sports-Analysis-Engine)
+* [TrollBot and Google NGrams](TrollBot-and-Google-NGrams)
 
 * **[Technologies](Technologies)**
 * [Cassandra](Cassandra)
@@ -30,8 +30,3 @@ Menu:
 * [NLTK](NLTK)
 * [Pig](Pig)
 * [Tableau](Tableau)
-
-<ul>
-  <li><a href="/">Home</a></li>
-  <li><a href="/404">Error</a></li>
-</ul>
