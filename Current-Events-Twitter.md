@@ -24,4 +24,4 @@ GitHub with sample code for streaming from Twitter: https://github.com/gt-big-da
 
 Twitter Streaming API (filter): https://dev.twitter.com/docs/api/1.1/post/statuses/filter
 
-Python Natural Language toolkit: {{ http://nltk.org/ | uri_escape }}
+Python Natural Language toolkit: http://nltk.org/

@@ -5,7 +5,7 @@ comments: false
 logo_url: https://avatars3.githubusercontent.com/u/6249784?s=200&v=4
 git_branch: gh-pages
 theme:
-use_github_wiki: true
+use_github_wiki: false
 use_prose_io: true
 custom_sidebar: true
 plugins:
