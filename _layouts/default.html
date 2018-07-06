@@ -11,7 +11,7 @@
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
-    
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
     {% if site.custom_head %}
@@ -44,7 +44,7 @@
       {% if site.custom_sidebar %}
           {% include sidebar.html %}
       {% endif %}
-        
+
       </header>
       <section>
       <div id="tools-buttons" style="width: 100%; text-align: right">
@@ -60,34 +60,12 @@
           <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/commits/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">History</a></span>
           <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/blob/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Source</a></span>
         {% endif %}
-        
-        {% if site.google_cse_token %}
-          <script>
-          (function() {
-            var cx = "{{site.google_cse_token}}";
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-          })();
-          </script>
-          <gcse:search></gcse:search>
-        {% else %}
-          <form method="GET" action="{{ site.github.repository_url }}/search">
-            {% if site.use_github_wiki %}
-              <input type="hidden" name="type" value="Wikis">
-            {% endif %}
-            <input type="text" name="q" placeholder="Text to search"><input type="submit" value="Search">
-          </form>
-        {% endif %}
       </div>
 
       <div id="content">
         {{ content }}
       </div>
-        
+
       {% if site.comments %}
           {% include comments.html %}
       {% endif %}
